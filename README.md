@@ -11,7 +11,7 @@ O aplicativo web foi criado usando o Python em conjunto com o framework "Flask".
 Para a criação da imagem é necesário rodar o seguinte commando com o Docker Engine ativado:
 
 ```
-docker build.
+docker build .
 ```
 
 Depois disso, eu cataloguei a imagem no repositório que eu criei com o comando a seguir:
