@@ -9,6 +9,6 @@ O aplicativo web foi criado usando o Python em conjunto com o framework "Flask".
 # Geração do Container
 
 Para a criação da imagem é necesário rodar o seguinte commando com o Docker Engine ativado:
-``` 
-docker build .
-```
+ 
+docker build.
+
