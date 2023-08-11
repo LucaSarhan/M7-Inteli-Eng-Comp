@@ -19,3 +19,9 @@ Depois disso, eu cataloguei a imagem no repositório que eu criei com o comando 
 ```
 docker tag 2c0b lucagiberti/ponderada_1:1.0.0
 ```
+
+Com isso feito é possível o envio para o docker hub usando esse comando:
+
+```
+docker push lucagiberti/ponderada_1:1.0.0
+```
