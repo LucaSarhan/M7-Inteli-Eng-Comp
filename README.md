@@ -12,3 +12,6 @@ Para a criação da imagem é necesário rodar o seguinte commando com o Docker 
  
 docker build.
 
+Depois disso, eu cataloguei a imagem no repositório que eu criei com o comando a seguir:
+
+docker tag 2c0b lucagiberti/ponderada_1:1.0.0
