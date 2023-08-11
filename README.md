@@ -38,4 +38,4 @@ Para executar em um ambiente de container, simplesmente utilize o seguinte coman
 docker run -p  7000:80 2c0b
 ```
 
-Ao final só clicar nesse [link](http:127.0.0.7000) que aparecerá meu currículo
+Ao final só clicar nesse [link](http:127.0.0.1:7000) que aparecerá meu currículo
