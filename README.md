@@ -6,8 +6,9 @@ O aplicativo web foi criado usando o Python em conjunto com o framework "Flask".
 - Inicialmente, uma lista de requisitos necessários para executar o sistema foi compilada e listada no arquivo "requirements.txt".
 - Subsequentemente, um "Dockerfile" foi criado para definir as instruções a serem seguidas durante a construção da imagem. O Dockerfile inclui a linguagem de programação utilizada, sua versão, o diretório de armazenamento dos arquivos, a instalação das dependências e o comando para executar o aplicativo web.
 
-# Geração do Container!
-Primeiro, é necessário criar a imagem com:
-=======
-| ***IMPORTANTE:*** Para os estudos que forem cards de Estudos Complementares, não se esqueção de passar o card para concluído quando terminarem o estudo. 
+# Geração do Container
 
+Para a criação da imagem é necesário rodar o seguinte commando com o Docker Engine ativado:
+``` 
+docker build .
+```
