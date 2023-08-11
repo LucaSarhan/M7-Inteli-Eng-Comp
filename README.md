@@ -1,5 +1,5 @@
 # Currículo em Docker
-O objetivo deste projeto é criar um container que engloba todo o conteúdo essencial necessário para a execução de um aplicativo web que exibe uma página HTML do meu currículo como estudante.
+O objetivo deste projeto é criar um container que engloba todo o conteúdo essencial necessário para a execução de um aplicativo web que exibe uma página HTML do meu currículo como estudante. A minha aplicação está na pasta corinthians.
 
 # Método de Desenvolvimento da Aplicação
 O aplicativo web foi criado usando o Python em conjunto com o framework "Flask". Para a implementação do contêiner, a Docker Engine foi empregada, seguindo uma abordagem de organização de recursos e criação de imagem.
