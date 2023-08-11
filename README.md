@@ -31,3 +31,9 @@ Dessa forma, a imagem está disponível no meu [repositório](https://hub.docker
 ```
 docker pull lucagiberti/ponderada_1:1.0.0
 ```
+
+Para executar em um ambiente de container, simplesmente utilize o seguinte comando:
+
+```
+docker run -p  7000:80 2c0b
+```
