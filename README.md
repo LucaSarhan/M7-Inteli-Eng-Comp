@@ -25,3 +25,9 @@ Com isso feito é possível o envio para o docker hub usando esse comando:
 ```
 docker push lucagiberti/ponderada_1:1.0.0
 ```
+
+Dessa forma, a imagem está disponível no meu repositório e você só precisa fazer o download dela com esse comando:
+
+```
+docker pull lucagiberti/ponderada_1:1.0.0
+```
