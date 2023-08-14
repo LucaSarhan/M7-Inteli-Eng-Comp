@@ -1,29 +1,44 @@
 body {
-	background-color: var(--bg-color);
-	color: var(--text-color);
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-
-#start {
-    margin-left: 20px;
+.intro {
+    display: flex;
+    background-color: #42a5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: -20px;
+    margin-left: -20px;
 }
 
-.centered {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+.imgpos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.profile-image {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+}
+
+.col {
+    padding: 20px;
 }
 
 .legend {
     text-align: center;
-    background-color: cyan;
-    margin-left: 35%;
-    margin-right: 35%;
+    background-color: #64b5f6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: -15px;
 }
-
-
-p {
-    margin-left: 20px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-  }
